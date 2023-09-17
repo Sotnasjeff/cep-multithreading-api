@@ -17,3 +17,8 @@ Os requisitos para este desafio são:
 - [ ] O resultado da request deverá ser exibido no command line, bem como qual API a enviou.
 
 - [ ] Limitar o tempo de resposta em 1 segundo. Caso contrário, o erro de timeout deve ser exibido.
+
+# Requisitos Adicionais (criado pelo próprio dev)
+- [ ] Realizar testes unitários.
+
+- [ ] Realizar a documentação no swagger.
