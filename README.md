@@ -19,6 +19,6 @@ Os requisitos para este desafio são:
 - [ ] Limitar o tempo de resposta em 1 segundo. Caso contrário, o erro de timeout deve ser exibido.
 
 # Requisitos Adicionais (criado pelo próprio dev)
-- [ ] Realizar testes unitários.
+- [x] Realizar testes unitários.
 
 - [ ] Realizar a documentação no swagger.
