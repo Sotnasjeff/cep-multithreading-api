@@ -20,3 +20,10 @@ Os requisitos para este desafio são:
 
 # Requisitos Adicionais (criado pelo próprio dev)
 - [x] Realizar testes unitários.
+
+# Requisitos para rodar a aplicação e como rodar?
+- Possuir o Golang na versão 1.20
+
+- Para rodar a aplicação somente rodar "go run main.go" na pasta cmd/server
+
+- Uma vez que o Server estiver rodando, você pode ir na pasta "test" e testar a aplicação.
