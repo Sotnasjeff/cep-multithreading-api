@@ -1,2 +1,2 @@
-GET http://localhost:3000/cep/0453 HTTP/1.1
+GET http://localhost:8000/cep/04538133 HTTP/1.1
 Content-Type: application/json

@@ -20,5 +20,3 @@ Os requisitos para este desafio são:
 
 # Requisitos Adicionais (criado pelo próprio dev)
 - [x] Realizar testes unitários.
-
-- [ ] Realizar a documentação no swagger.
