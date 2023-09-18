@@ -6,24 +6,24 @@ var (
 	ErrInvalidCep = errors.New("cep is invalid")
 )
 
-type Endereco struct {
+type Address struct {
 	Cep string `json:"cep"`
 }
 
-func NewEndereco(cep string) (*Endereco, error) {
-	endereco := &Endereco{
+func NewAddress(cep string) (*Address, error) {
+	address := &Address{
 		Cep: cep,
 	}
 
-	err := endereco.Validate()
+	err := address.Validate()
 	if err != nil {
 		return nil, err
 	}
 
-	return endereco, nil
+	return address, nil
 }
 
-func (e *Endereco) Validate() error {
+func (e *Address) Validate() error {
 	if e.Cep == "" || len(e.Cep) < 8 {
 		return ErrInvalidCep
 	}

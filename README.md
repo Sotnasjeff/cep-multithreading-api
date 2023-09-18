@@ -12,11 +12,11 @@ http://viacep.com.br/ws/" + cep + "/json/
 
 Os requisitos para este desafio são:
 
-- [ ] Acatar a API que entregar a resposta mais rápida e descartar a resposta mais lenta.
+- [x] Acatar a API que entregar a resposta mais rápida e descartar a resposta mais lenta.
 
-- [ ] O resultado da request deverá ser exibido no command line, bem como qual API a enviou.
+- [x] O resultado da request deverá ser exibido no command line, bem como qual API a enviou.
 
-- [ ] Limitar o tempo de resposta em 1 segundo. Caso contrário, o erro de timeout deve ser exibido.
+- [x] Limitar o tempo de resposta em 1 segundo. Caso contrário, o erro de timeout deve ser exibido.
 
 # Requisitos Adicionais (criado pelo próprio dev)
 - [x] Realizar testes unitários.
