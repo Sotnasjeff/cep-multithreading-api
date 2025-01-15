@@ -3,7 +3,7 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
 	"time"
@@ -24,7 +24,7 @@ func GetAddress(w http.ResponseWriter, r *http.Request) {
 			panic(err)
 		}
 		defer req.Body.Close()
-		body, err := ioutil.ReadAll(req.Body)
+		body, err := io.ReadAll(req.Body)
 		if err != nil {
 			log.Fatalf("Error in reading body %v", err)
 		}
@@ -43,7 +43,7 @@ func GetAddress(w http.ResponseWriter, r *http.Request) {
 			panic(err)
 		}
 		defer req.Body.Close()
-		body, err := ioutil.ReadAll(req.Body)
+		body, err := io.ReadAll(req.Body)
 		if err != nil {
 			log.Fatalf("Error in reading body %v", err)
 		}
